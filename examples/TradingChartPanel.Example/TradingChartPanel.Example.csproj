@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFrameworks>net6.0-windows;net48</TargetFrameworks>
+    <UseWPF>true</UseWPF>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <AssemblyName>TradingChartPanel.Example</AssemblyName>
+    <RootNamespace>TradingChartPanel.Example</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OxyPlot.Wpf" Version="2.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../src/TradingChartPanel.Core/TradingChartPanel.Core.csproj" />
+    <ProjectReference Include="../src/TradingChartPanel.WPF/TradingChartPanel.WPF.csproj" />
+    <ProjectReference Include="../src/TradingChartPanel.DataAdapters/TradingChartPanel.DataAdapters.csproj" />
+  </ItemGroup>
+</Project>

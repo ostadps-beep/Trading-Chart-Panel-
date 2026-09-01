@@ -1,0 +1,10 @@
+<Project>
+  <ItemGroup>
+    <ProjectReference Include="src/TradingChartPanel.Core/TradingChartPanel.Core.csproj" />
+    <ProjectReference Include="src/TradingChartPanel.WPF/TradingChartPanel.WPF.csproj" />
+    <ProjectReference Include="src/TradingChartPanel.Indicators/TradingChartPanel.Indicators.csproj" />
+    <ProjectReference Include="src/TradingChartPanel.DataAdapters/TradingChartPanel.DataAdapters.csproj" />
+    <ProjectReference Include="tests/TradingChartPanel.Tests/TradingChartPanel.Tests.csproj" />
+    <ProjectReference Include="examples/TradingChartPanel.Example/TradingChartPanel.Example/TradingChartPanel.Example.csproj" />
+  </ItemGroup>
+</Project>

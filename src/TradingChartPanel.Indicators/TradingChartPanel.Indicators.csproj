@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net6.0;net48</TargetFrameworks>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <AssemblyName>TradingChartPanel.Indicators</AssemblyName>
+    <RootNamespace>TradingChartPanel.Indicators</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../TradingChartPanel.Core/TradingChartPanel.Core.csproj" />
+  </ItemGroup>
+</Project>

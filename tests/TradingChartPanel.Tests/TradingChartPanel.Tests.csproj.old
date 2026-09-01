@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../../src/TradingChartPanel.Core/TradingChartPanel.Core.csproj" />
+    <ProjectReference Include="../../src/TradingChartPanel.WPF/TradingChartPanel.WPF.csproj" />
+  </ItemGroup>
+</Project>
